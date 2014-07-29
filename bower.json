@@ -1,0 +1,15 @@
+{
+  "name": "Your Name",
+  "repo": "repo-name",
+  "version": "0.3.0",
+  "main": "public/js/app.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "console-polyfill": "*",
+    "jquery": "~2.0.3"
+  }
+}
