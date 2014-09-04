@@ -11,9 +11,8 @@ exports.config =
 
     stylesheets:
       defaultExtension: 'styl'
-      joinTo: 'css/app.css'
+      joinTo: 'css/app.css': /^(bower_components|vendor)/
       order:
-        before: ['vendor/css/normalize.css']
         after: ['vendor/css/helpers.css']
 
     templates:
